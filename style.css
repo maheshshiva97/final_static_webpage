@@ -77,9 +77,11 @@ img {
     display: flex;
     justify-content: space-between;
     gap: 21px;
+    
 }
 li a{
     text-decoration: none;
+    color: var(--secondary-color) !important;
 }
 
 .btn {
@@ -147,7 +149,7 @@ li a{
     max-width: 400px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrop;
+    white-space:nowrop;
 }
 
 .banner_flex {
@@ -247,7 +249,8 @@ li a{
     padding: 30px;
     text-overflow: ellipsis;
     overflow: hidden;
-    box-shadow: 0px 5px 17px 4px var(--box-shadow);
+    box-shadow: 0px 13px 19px 0px #00000012;
+    
 }
 .service_warp {
     display: grid;
@@ -255,9 +258,10 @@ li a{
     gap: 30px;
 }
 
-.service_itam:hover {
+.service_itam:hover{
     background-color: var(--primary-color);
     color: var(--tertiary-color);
+    transform: scale(1.1);
 }
 .service_itam:hover h5::after{
     background-color: var(--tertiary-color);
@@ -265,8 +269,7 @@ li a{
  }
 .service_itam:hover p { 
     color:var(--tertiary-color);
-}  
-
+}
 .service_itam *{
     margin: 0;
 }
@@ -543,7 +546,7 @@ li a{
     justify-content: center;
     gap: 35px;
     padding: 40px 40px;
-    box-shadow: 0px 5px 17px 4px var(--box-shadow);
+    box-shadow: 0px 13px 19px 0px #00000012;
     position: relative;
 }
 .shop_price{
@@ -600,6 +603,7 @@ li a{
 .shop_itam:hover{
     background-color: var(--font-color);
     color: var(--tertiary-color);
+    transform: scale(1.1);
 }
 .shop_itam:hover .shop_flex {
     color: var(--tertiary-color);
@@ -702,7 +706,7 @@ input{
     font-weight: 400;
     border: var(--tertiary-color);
     margin-right:0;
-    height: 46px;
+    height: 48px;
     border-radius: 4px 0px 0px 4px;
     padding-left: 10px;
 }
@@ -817,6 +821,11 @@ form{
     color: var(--secondary-color);
     font-size: 12px;
     font-weight: 700;
+    font-family: Montserrat;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    padding-left: 19px;
+
 }
 .last_icon i{
     color: var(--primary-color);
