@@ -61,75 +61,10 @@ img {
     text-overflow: ellipsis;
     max-width: 190px;
 }
-/* started with media */
 .banner_nav{
-    display: flex;   
-}
-
-
-.banner_nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-#home_bar {
-    display: none;
-}
-
-.open_menu, .close_menu{
-    position: absolute;
-    color: var(--font-color);
-    cursor: pointer;
-    font-size: 24px;
-    display: none;
-    transform: translateY(-50%);
-}
-.open_menu{
-    top: 22px;
-    left: 3px;
-}
-.close_menu{
-    top: 22px;
-    left: 4px;
-
-}
-#hamburg{
-    display: none;
-}
-#home_inner_bar{
-    display: none;
-}
-.home_nav i{
-    color: var(--tertiary-color);
-    transform: rotate(0deg); 
-}
-.home_nav{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5px;
     
-}
-.banner_nav button.btn.text_color {
-    visibility: hidden;
-    color:var(--tertiary-color);
-    font-size: 14px;
-    font-weight: 700;
-    justify-content: flex-start;
-    position: absolute;
-    padding: 6px 7px;
-    width: 270px;
-}
-.inner_menu i{
-    color: var(--tertiary-color);  
-    transform: rotate(270deg);
- 
-}
-.inner_menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
 }
 .banner_nav ul,button{
     cursor: pointer;
@@ -142,14 +77,10 @@ img {
     display: flex;
     justify-content: space-between;
     gap: 21px;
-    
 }
-
 li a{
     text-decoration: none;
-    color: var(--secondary-color) !important;
 }
-/* header end with media */
 
 .btn {
     padding: 12px 20px;
@@ -216,7 +147,7 @@ li a{
     max-width: 400px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space:nowrop;
+    white-space: nowrop;
 }
 
 .banner_flex {
@@ -316,8 +247,7 @@ li a{
     padding: 30px;
     text-overflow: ellipsis;
     overflow: hidden;
-    box-shadow: 0px 13px 19px 0px #00000012;
-    
+    box-shadow: 0px 5px 17px 4px var(--box-shadow);
 }
 .service_warp {
     display: grid;
@@ -325,10 +255,9 @@ li a{
     gap: 30px;
 }
 
-.service_itam:hover{
+.service_itam:hover {
     background-color: var(--primary-color);
     color: var(--tertiary-color);
-    transform: scale(1.1);
 }
 .service_itam:hover h5::after{
     background-color: var(--tertiary-color);
@@ -336,7 +265,8 @@ li a{
  }
 .service_itam:hover p { 
     color:var(--tertiary-color);
-}
+}  
+
 .service_itam *{
     margin: 0;
 }
@@ -613,7 +543,7 @@ li a{
     justify-content: center;
     gap: 35px;
     padding: 40px 40px;
-    box-shadow: 0px 13px 19px 0px #00000012;
+    box-shadow: 0px 5px 17px 4px var(--box-shadow);
     position: relative;
 }
 .shop_price{
@@ -670,7 +600,6 @@ li a{
 .shop_itam:hover{
     background-color: var(--font-color);
     color: var(--tertiary-color);
-    transform: scale(1.1);
 }
 .shop_itam:hover .shop_flex {
     color: var(--tertiary-color);
@@ -773,7 +702,7 @@ input{
     font-weight: 400;
     border: var(--tertiary-color);
     margin-right:0;
-    height: 48px;
+    height: 46px;
     border-radius: 4px 0px 0px 4px;
     padding-left: 10px;
 }
@@ -888,11 +817,6 @@ form{
     color: var(--secondary-color);
     font-size: 12px;
     font-weight: 700;
-    font-family: Montserrat;
-    line-height: 24px;
-    letter-spacing: 0.20000000298023224px;
-    padding-left: 19px;
-
 }
 .last_icon i{
     color: var(--primary-color);
