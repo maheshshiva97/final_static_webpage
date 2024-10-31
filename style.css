@@ -20,6 +20,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
+   
 }
 
 p {
@@ -61,26 +62,75 @@ img {
     text-overflow: ellipsis;
     max-width: 190px;
 }
-.banner_nav{
-    display: flex;
-    
-    
-}
-.banner_nav ul,button{
-    cursor: pointer;
-} 
 
-.banner_nav ul{
+.banner_nav ul {
     list-style: none;
-    margin: 14px 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+
+}
+
+#home_bar {
+    display: none;
+}
+
+.open_menu, .close_menu{
+    position: absolute;
+    color: var(--font-color);
+    cursor: pointer;
+    font-size: 24px;
+    display: none;
+    transform: translateY(-50%);
+}
+.open_menu{
+    top: 22px;
+    left: 3px;
+}
+.close_menu{
+    top: 22px;
+    left: 4px;
+
+}
+#hamburg{
+    display: none;
+}
+#home_inner_bar{
+    display: none;
+}
+.home_nav i{
+    color: var(--tertiary-color);
+    transform: rotate(0deg); 
+}
+.home_nav{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    gap: 21px;
+    gap: 5px;
+    
 }
-li a{
-    text-decoration: none;
+.banner_nav button.btn.text_color {
+    visibility: hidden;
+    color:var(--tertiary-color);
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: flex-start;
+    position: absolute;
+    padding: 6px 7px;
+    width: 270px;
 }
+.inner_menu i{
+    color: var(--tertiary-color);  
+    transform: rotate(270deg);
+ 
+}
+.inner_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* button starts here */
 
 .btn {
     padding: 12px 20px;
@@ -97,13 +147,12 @@ li a{
     justify-content: center;
     gap: 5px;
     letter-spacing: 0.2px;
+    white-space: nowrap;
 }
 
 .header_btn {
     display: flex;
-    margin-left: 200px;
-    gap: 40px;
-    
+    margin-right: 50px;
 }
 
 .btn.text_color {
@@ -121,11 +170,15 @@ li a{
     gap: 30px;
     position: relative;
 }
+
+.banner_nav {
+    flex: 1;
+}
+
 .banner_head *{
     margin: 0px;
 }
-/* header fill end here */
-/* start banner */
+
 .larger_container {
     max-width: 1350px;
     margin: 0 auto;
@@ -189,8 +242,7 @@ li a{
 .banner_content * {
     margin: 0;
 }
-/* end banner */
-/* 1/4 layout section */
+
 .site_section {
     /* color:  var(--font-color); */
     padding-top: 150px;
@@ -730,7 +782,6 @@ form{
 .color{
     background-color:var(--bg-color);
 }
-/* Footer Start */
 
 .footer_container{
     max-width: 1050px;
@@ -823,8 +874,7 @@ form{
     font-size: 18px;
     text-decoration-style: none;
 }
-/* End footer  */
 
 
      /*  THE END */
-     /* SMILE */
+     /* SHUBAM  */

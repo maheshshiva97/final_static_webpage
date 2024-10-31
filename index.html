@@ -42,17 +42,42 @@
                 <!-- media with header -->
                 <nav class="banner_nav">
                     <ul>
-                        <li><a  href="#">Home</a></li>
-                        <li><a href="#">Product </a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Courses</a></li>
+                        
+                        <li><a class="banner_nav_bg" href="#">Home</a></li>
+                        <li class="home">
+                            <input type="checkbox" id="home_bar">
+                            <label for="home_bar" class="home_nav rotate_nav">Product <i
+                                        class="fa-solid fa-caret-down"></i></label>
+                            <div class=" nav_hover">
+                                <ul class="drop_down">
+                                    <li><a class="menu_bg" href="#">Pricing</a></li>
+                                    <li>
+                                        <input type="checkbox" id="home_inner_bar">
+                                        <label for="home_inner_bar"
+                                                class="home_nav rotate">Courses<i
+                                                    class="fa-solid fa-caret-down"></i></label>
+                                        <div class=" menu_nav">
+                                            <ul>
+                                                <li><a href="#">fees</a></li>
+                                                <li><a href="#">Features</a></li>
+                                                <li><a href="#">Resources</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a class="menu_bg" href="#">Experts</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a class="banner_nav_bg" href="#">pricing</a></li>
+                        <li><a class="banner_nav_bg" href="#">Contact</a></li>
+                        <li><button type="buton" class="btn text_color">Login</button></li>
                     </ul>
+                </nav>
                 <div class="header_btn">
                     <button type="buton" class="btn text_color">Login</button>
                     <button type="button" class="btn filled_btn edit">JOIN US <span
                             class="material-symbols-outlined">arrow_right_alt</span></button>
                 </div>
-                </nav>
             </div>
         </div>
     </header>
