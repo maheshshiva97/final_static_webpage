@@ -148,6 +148,7 @@ img {
     gap: 5px;
     letter-spacing: 0.2px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .header_btn {
