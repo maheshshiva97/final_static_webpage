@@ -91,7 +91,7 @@
         flex-direction: column;
         gap: 15px;
         position: absolute;
-        background-color: var(--primary-color);
+        background-color:var(--primary-color);
         width: 140px;
         border-radius: 5px;
         /* height: 140px; */
@@ -99,7 +99,7 @@
         opacity: 0;
         top: 28px;
         max-height: 0px;
-        transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; 
         box-shadow: inset 0px 1px 0px 1px var(--tertiary-color);
     }
 
@@ -306,6 +306,7 @@
         left: -200px;
         overflow: hidden;
         position: relative;
+        background-color: black;
     }
 
     .menu_nav {
@@ -378,6 +379,7 @@
         visibility: visible;
         opacity: 1;
         height: 160px;
+        background-color: lightslategray;
     }
 
     .header_btn .text_color {

@@ -157,7 +157,7 @@ img {
 }
 
 .btn.text_color {
-    color: var(--primary-color);
+    color:var(--primary-color);
 }
 
 .btn.filled_btn {
@@ -201,7 +201,7 @@ img {
     max-width: 400px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrop;
+    /* white-space:nowrap; */
 }
 
 .banner_flex {
